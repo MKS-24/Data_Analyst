@@ -1,0 +1,83 @@
+# 📊 Netflix Data Analysis with Pandas & Matplotlib
+
+This project presents a comprehensive analysis of the Netflix dataset using **Pandas** for data manipulation and **Matplotlib** for visualization. It covers 10 insightful tasks ranging from basic to advanced level to understand Netflix's content trends, types, ratings, genres, and more.
+
+---
+
+## 🔍 Objectives
+
+To answer key questions using data visualization and analysis techniques, and showcase trends in content release, distribution, and audience targeting on Netflix.
+
+---
+
+## 📌 Tasks Covered
+
+1. **Yearly Content Release**
+   → Bar chart showing how many shows and movies were released each year.
+
+2. **Movies vs TV Shows**
+   → Pie chart showing the percentage split between Movies and TV Shows.
+
+3. **Top 10 Content Producing Countries**
+   → Bar chart displaying countries with the highest number of releases.
+
+4. **Rating-wise Content Distribution**
+   → Horizontal bar chart of content count based on ratings (e.g., G, PG, TV-MA).
+
+5. **Top 5 Genres Analysis**
+   → Bar chart of most popular genres from the `listed_in` column.
+
+6. **Top 10 Directors by Count**
+   → Bar chart of directors with the most content on Netflix.
+
+7. **TV Shows Count by Country**
+   → Bar chart filtered only for TV Shows showing content count per country.
+
+8. **Yearly Trend of Documentaries**
+   → Bar chart showing how many documentaries were released each year.
+
+9. **Monthly Content Addition Trend**
+   → Bar chart of content addition per month (based on `date_added`).
+
+10. **Movie Duration Analysis**
+    → Histogram showing the distribution of movie durations in minutes.
+
+---
+
+## 🛠️ Tools & Libraries
+
+* Python 🐍
+* [Pandas](https://pandas.pydata.org/) for data processing
+* [Matplotlib](https://matplotlib.org/) for data visualization
+
+---
+
+## 📁 Dataset
+
+The analysis is based on the publicly available **Netflix Movies and TV Shows dataset**.
+(https://www.kaggle.com/datasets/shivamb/netflix-shows) *(Kaggle)*
+
+---
+
+## ✅ How to Run
+
+1. Clone the repository
+2. Install required libraries:
+
+   ```bash
+   pip install pandas matplotlib
+   ```
+3. Run the Jupyter notebook or Python script containing the analysis.
+
+---
+
+## 📊 Output
+
+Each task includes a visualization (bar chart,horizontal bar chart, pie chart, or histogram) with labeled axes and proper titles for easy interpretation.
+
+---
+
+## 💡 Author
+
+Muhammad Khuzaima Siddiqui
+Email: mksprogramify@gmail.com
