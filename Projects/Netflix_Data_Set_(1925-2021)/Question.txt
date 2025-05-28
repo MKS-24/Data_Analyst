@@ -1,0 +1,31 @@
+### 🔢 **Pandas + Matplotlib Questions**
+
+1. **Netflix par har saal (release\_year) kitne shows aur movies release hue?**
+   Bar chart banao jo har saal ke total releases dikhaye.
+
+2. **Movie aur TV Show ka mukabla karo**
+   Pie chart banao jo dikhaye ke kitne percent content Movies hain aur kitne TV Shows.
+
+3. **Top 10 countries jin se sabse zyada content aaya hai?**
+   Bar chart banao jo sabse zyada producing countries ko dikhaye (country column ka use karo).
+
+4. **Top 5 genres (listed\_in column) ka analysis karo**
+   Bar chart banao jo sabse zyada popular genres ko dikhaye.
+
+5. **Har rating (G, PG, TV-MA, etc.) ke kitne shows/movies hain?**
+   Horizontal bar chart banao jo rating-wise distribution show kare.
+
+6. **Director-wise content distribution**
+   Top 10 directors jin ke naam sabse zyada baar aaye hain unka bar chart banao.
+
+7. **Har country ke TV Shows count karo (sirf TV Shows ke liye)**
+   Country-wise bar chart banao lekin sirf type == "TV Show" filter kar ke.
+
+8. **Year-wise content trends of only Documentaries**
+   Har saal kitne Documentaries release hue? (listed\_in column mein “Documentaries” ho)
+
+9. **Monthly release trend**
+   Kis month mein sabse zyada content add hua? (`date_added` column ka month extract karo, phir bar chart banao)
+
+10. **Duration ke basis par Movies ka analysis karo**
+    Sirf movies ke liye duration column ka numeric part lo (minutes), aur histogram banao jo unki duration distribution dikhaye.
