@@ -1,0 +1,9 @@
+Which columns (features) are there in the dataset?
+Which columns have missing values?
+Handle the missing values?
+Which column needs a data type change and why?
+How many total passengers are there in the dataset?
+What is the ratio of survived to not survived passengers?
+What was the survival rate based on gender?
+What was the survival rate based on passenger class (Pclass)?
+What was the effect of age on survival?
