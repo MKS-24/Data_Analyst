@@ -1,0 +1,41 @@
+                              📈Dataset Information:
+📂 Dataset Name:
+Google Play Store Apps Dataset
+(Publicly available on Kaggle)
+
+📅 Years Covered:
+2010 – 2018
+                              
+                                                 📌 Basic Information & Cleaning Questions
+How many rows and columns are there in the dataset?
+Which columns have missing values, and what is the count of those missing values?
+How would you handle the null values — by dropping or filling them? Justify your approach.
+What are the minimum, maximum, and average values of the Rating column?
+How would you convert the values in the Installs column into numeric format?
+How would you remove the "$" sign from the Price column and convert the values into float?
+
+                                                📊 Exploratory Data Analysis (EDA) Questions
+What are the top 5 categories with the highest number of apps?
+What is the percentage distribution of Free and Paid apps?
+Which are the 5 most expensive apps? What are their categories and ratings?
+Which category has the highest average rating?
+Which category has the highest average number of installs?
+
+
+                                                    📉 Data Visualization-Based Questions
+Top 5 categories by app count.
+Create a plot that showing the distribution of ratings.
+Create a plot that showing of Rating vs Category.
+Create a plot of Price vs Rating (only for paid apps).
+Create a pie chart showing the ratio of free vs paid apps.
+
+                                                    🧠 Advanced/Challenging Questions
+In which category is the average rating of paid apps higher than that of free apps?
+Which app has the lowest rating despite having the highest number of installs?
+In which categories is the average price of paid apps greater than $10?
+Which app has the longest name in terms of character count? What is its rating and category?
+Is there any correlation between an app's price and its number of installs (only for paid apps)?
+Which aapps that have over 10 million installs but have a rating less than 3.5?
+Which category has the highest number of paid apps, but their average rating is poor (less than 3.5)?
+Which categories have a high average price but low installs (indicating low market demand)?
+Which are the 3 apps that have the same name but differ in installs and rating (i.e., duplicate names with different stats)?
