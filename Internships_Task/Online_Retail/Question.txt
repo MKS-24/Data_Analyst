@@ -1,0 +1,39 @@
+Yeh hai wohi step-by-step task list **English** mein, Roman script se convert karke:
+
+---
+
+**1. Data Loading and Understanding 📥**
+
+* Read the CSV/Excel file using pandas
+* Check columns like InvoiceNo, StockCode, CustomerID, InvoiceDate, Quantity, UnitPrice
+* Inspect data size, data types, and missing values
+
+**2. Data Cleaning 🧹**
+
+* Drop records with missing CustomerID
+* Remove rows with negative/zero values in Quantity or UnitPrice (handle returns separately if needed)
+* Remove duplicates
+* Convert InvoiceDate to `datetime` format
+
+**4. RFM Scoring & Binning 🎯**
+
+* Score Recency, Frequency, and Monetary on a 1–5 scale using quantiles
+* Create a combined RFM Score (e.g., R\_score × 100 + F\_score × 10 + M\_score)
+* Alternatively, use KMeans or Hierarchical clustering for segmenting
+
+**5. Customer Segmentation (Labeling) 🏷️**
+
+* Use classic labels:
+  • Champions
+  • Loyal Customers
+  • Potential Loyalists
+  • At Risk
+  • Lost Customers
+* Customize label names based on business needs
+
+**6. Visualization & Insights 📊**
+
+* Create heatmap/bar chart of average R, F, M per segment
+* Scatter plot (Recency vs Monetary) with segment colors
+* Show revenue contribution using pie or Pareto chart
+* Line plot showing revenue trend over time
