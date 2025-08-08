@@ -1,0 +1,27 @@
+Data Cleaning & Preparation:
+Converted the Date column from object type to datetime.
+Checked for duplicates and null values; dropped rows with null Dept values for data accuracy.
+Converted the Dept column to integer type.
+Created a new column for Monthly_Date by converting dates to monthly periods.
+Aggregated weekly sales into monthly sales for each store.
+
+Visualization & Trend Analysis:
+Plotted monthly sales trends for each store to compare performance over time.
+Visualized overall monthly revenue as a time series.
+Calculated and plotted 3-month and 6-month moving averages to smooth out short-term fluctuations and reveal long-term trends.
+Moving averages show seasonal ups and downs, but an overall steady growth trend.
+
+Seasonality & Patterns:
+Calculated the average sales per month across multiple years to identify seasonal patterns.
+Bar plot reveals certain months, like December and February, have the highest average sales — likely due to holiday and festive seasons.
+
+Department-wise Sales Breakdown:
+Identified the top 5 departments by total sales.
+Department 92 leads with the highest sales, indicating it as a major revenue contributor.
+Department sales distribution highlights key areas for focusing marketing and inventory strategies.
+
+Key Insights:
+Monthly sales vary by store, but the overall sales show stable growth.
+There are clear seasonal peaks in sales during holiday months (December, February).
+Focusing on top-performing departments (e.g., Dept 92) can help optimize business efforts.
+Moving averages smooth out volatility, showing a positive sales trend over time.

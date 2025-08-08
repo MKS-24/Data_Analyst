@@ -1,0 +1,11 @@
+How do you clean and prepare sales data, including converting the date column to datetime format, checking for missing values, and ensuring the sales column is numeric?
+
+How can weekly sales data be converted into monthly sales using resampling and aggregation, and how can a monthly sales trend be visualized?
+
+How can moving averages, such as 3-month and 6-month averages, be applied and plotted to smooth sales trends?
+
+How can seasonality in sales be analyzed by calculating and visualizing the average sales for each month across multiple years?
+
+How can sales be broken down by product, such as identifying and plotting the top 3–5 departments by sales?
+
+How can sales be broken down by region, such as identifying and plotting the top 3 stores by monthly sales?
