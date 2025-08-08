@@ -1,0 +1,35 @@
+Data Preparation:
+Loaded Titanic combined dataset (train + test + gender_submission merged).
+Removed duplicate rows to avoid biased results.
+Checked columns and identified missing values:
+Filled missing Age values with the column mean.
+Dropped the entire Cabin column (too many missing values).
+Filled missing Fare values with mean.
+Dropped rows missing Embarked data.
+Converted Age from float to integer for easier interpretation.
+
+Basic Statistics:
+Total passengers counted.
+Survival ratio calculated:
+Approximately 38% survived, 62% did not survive.
+Survival Analysis by Different Features
+
+Gender-wise Survival:
+Females had a significantly higher survival count compared to males.
+Visualized via bar plot showing clear gender disparity in survival rates.
+Passenger Class (Pclass) Survival:
+1st class passengers had the highest survival counts.
+2nd class had moderate survival.
+3rd class had the lowest survival counts.
+Highlights the impact of socio-economic status on survival chances.
+
+Age and Survival:
+Correlation between Age and Survived is negative (slightly).
+Younger passengers had better survival chances than older passengers.
+Heatmap visualization confirms this negative correlation.
+
+Key Insights:
+Gender is a strong survival indicator, with females more likely to survive.
+Passenger class matters: higher classes had better survival rates, indicating possible priority in rescue.
+Younger passengers survived more often compared to older ones.
+Missing data was carefully handled to maintain dataset integrity.
